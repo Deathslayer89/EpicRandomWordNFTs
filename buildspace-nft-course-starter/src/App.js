@@ -9,7 +9,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 
 // I moved the contract address to the top for easy access.
-const CONTRACT_ADDRESS = "0xa696a8C992556A3a85fDaA6a99fCC6352d2D636A";
+const CONTRACT_ADDRESS = "0x773bdd3eb22828071D9d2776e71aD79655A69ace";
 
 const App = () => {
 
@@ -166,7 +166,7 @@ const App = () => {
         <div>
           <p>
           
-            <a href='https://testnets.opensea.io/assets/rinkeby/0xa696a8C992556A3a85fDaA6a99fCC6352d2D636A'>
+            <a href='https://testnets.opensea.io/assets/rinkeby/0x773bdd3eb22828071D9d2776e71aD79655A69ace'>
               view the collection on opensea🌊
             </a>
           </p>
