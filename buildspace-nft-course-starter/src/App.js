@@ -158,8 +158,8 @@ const App = () => {
             </h4>
           </p>
 
-          {(currentAccount === "") ? renderNotConnectedContainer() : ""}
-          {mintCount < 50 ? renderMintUI() : soldOut()}
+          {(currentAccount === "") ? renderNotConnectedContainer() :{(mintCount < 50 )? renderMintUI() : soldOut()}
+          
 
 
         </div>
