@@ -115,7 +115,7 @@ contract MyEpicNFT is ERC721URIStorage {
     function random(string memory input) internal pure returns (uint256) {
         return uint256(keccak256(abi.encodePacked(input)));
     }
-
+    
     function makeAnEpicNFT() public {
         uint256 newItemId = _tokenIds.current();
 
@@ -158,7 +158,7 @@ contract MyEpicNFT is ERC721URIStorage {
         // Update your URI!!!
         _setTokenURI(
             newItemId,
-            "ipfs://QmaF7NfeGKnb9QtBU3nR5L5UCFJnCQmr2mXLe2sPcHtovk"
+            finalTokenUri
         );
 
         _tokenIds.increment();
