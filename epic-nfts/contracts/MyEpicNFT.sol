@@ -13,7 +13,6 @@ import {Base64} from "./library/Base64.sol";
 contract MyEpicNFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
-
     string baseSvg =
         "<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 350 350'><style>.base { fill: white; font-family: serif; font-size: 24px; }</style><rect width='100%' height='100%' fill='black' /><text x='50%' y='50%' class='base' dominant-baseline='middle' text-anchor='middle'>";
 
@@ -157,7 +156,10 @@ contract MyEpicNFT is ERC721URIStorage {
         _safeMint(msg.sender, newItemId);
 
         // Update your URI!!!
-        _setTokenURI(newItemId, "ipfs://QmUe11w8a5y1QNRwnpzTj2XjYJFV3rr1ZiYMUm689A4cLK");
+        _setTokenURI(
+            newItemId,
+            "ipfs://QmaF7NfeGKnb9QtBU3nR5L5UCFJnCQmr2mXLe2sPcHtovk"
+        );
 
         _tokenIds.increment();
         console.log(

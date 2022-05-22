@@ -8,7 +8,7 @@ const TWITTER_HANDLE = 'Lupin_018';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 
-const CONTRACT_ADDRESS = "0xb3E2cEBf9a97D4335058a7D2563992161Bd48A1c";
+const CONTRACT_ADDRESS = "0x5850d83fD3D14a33F0ECc810E0Dc754911c2e9DE";
 
 const App = () => {
 
@@ -165,7 +165,7 @@ const App = () => {
         <div>
           <p>
           
-            <a href='https://testnets.opensea.io/assets/rinkeby/0xb3E2cEBf9a97D4335058a7D2563992161Bd48A1c'>
+            <a href='https://testnets.opensea.io/assets/rinkeby/0x5850d83fD3D14a33F0ECc810E0Dc754911c2e9DE'>
               view the collection on opensea🌊
             </a>
           </p>
